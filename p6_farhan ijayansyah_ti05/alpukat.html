@@ -3,57 +3,73 @@
     <head>
         <title>Alpukat</title>
         <meta name="description" content="khasiat alpukat">
-        <!-- Internal CSS -->
         <style>
-body{
-    background-color: lightblue;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+            body{
+                background-color: silver;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
 
-h1{
-    text-align: center;
-    color:blueviolet;
-}
+            h1{
+                text-align: center ;
+                color: blueviolet;
+              }
 
-p{
-    text-align: justify;
-    width: fit-content;
-}
+              p{
+                text-align: justify;
+                width: fit-content;
+              }
 
-.center{
-    width: 50%;
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-}
+              .center{
+                width: 50%;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+              }
 
-.foto{
-    background-color:black;
-}
+              .foto{
+                background-color: white;
+              }
 
-.foto img{
-    width: 23%;
-}
+              .foto img{
+                width: 23%;
+              }
+		
+              .cod{
+                margin: auto;
+                width: 40%;
+                margin-left: auto;
+                margin-right: auto;
+              }
+		
+              .cod p{
+                background-color: black;
+                border: 1px dotted red;
+                text-align: center;
+                color: blue;
+                margin: 0 auto;
+              }
 
-.cod{
-    margin: auto;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
+              .promo{
+                color: red;
+                text-align: center;
+              }
 
-.cod p{
-    background-color:aqua;
-    border: 1px dotted red;
-    text-align: center;
-    font-weight: bold;
-    color: blue;
-}
+              button{
+                background-color: yellow;
+                color: red;
+                border: 0;
+              }
+
+              #tombol{
+                text-align: center;
+              }
+
+              
         </style>
     </head>
     <body>
         <h1>Alpukat Buah Nikmat Kaya Manfaat</h1>
-        <img src="images/alpukat.jpg" class="center" alt="buah alpukat"/>
+        <img src="04.JPEG" alt="buah alpukat" width="200" />
         <p>
             Alpukat merupakan jenis buah yang memiliki kandungan lemak tinggi,
             sekitar 20 kali lebih tinggi dibanding buah-buahan lain. 
@@ -71,7 +87,7 @@ Daerah penghasil alpukat adalah Jawa Barat,Jawa Timur, sebagian Sumatera, Sulawe
             Bunganya tersembunyi dengan warna hijau kekuningan dan ukuran 5 hingga 10 milimeter. 
             Ukurannya bervariasi dari 7 hingga 20 sentimeter, dengan massa 100 hingga 1000 gram; biji yang besar, 5 hingga 6,4 sentimeter. 
         </p>
-        <img src="images/jusalpukat.png"  class="center" alt="jus alpukat"/>
+        <img src="03.JPEG" width="200" >
         <p>
     
             Jus alpukat termasuk salah satu minuman yang banyak digemari. 
@@ -100,10 +116,14 @@ Daerah penghasil alpukat adalah Jawa Barat,Jawa Timur, sebagian Sumatera, Sulawe
 
         <div class="foto">
 
-<img src="images/alpukat_miki.png" alt="alpukat miki"/>
-<img src="images/alpukat_mentega.png" alt="alpukat mentega"/>
-<img src="images/alpukat_kendil.png" alt="alpukat kendil"/>
-<img src="images/alpukat_aligator.png" alt="alpukat alpukat_aligator"/>
+<img src="02.JPEG" alt="alpukat miki"/>
+<img src="01.JPEG" alt="alpukat mentega"/>
+<img src="05.JPEG" alt="alpukat kendil"/>
+<img src="06.JPEG" alt="alpukat alpukat_aligator"/>
+        
+    </div>
+    
+
 
         </div>
         <div class="promo">
@@ -121,10 +141,50 @@ Daerah penghasil alpukat adalah Jawa Barat,Jawa Timur, sebagian Sumatera, Sulawe
             <br/>POTONGAN ONGKIR Rp.5.000,- <br/>UNTUK PEMBELIAN VIA TRANSFER 
        </div>
        <br/>
-       <div>
-            <button id="tombol">PESAN SEKARANG</button>
+       <div id="tombol">
+            <button >PESAN SEKARANG</button>
        </div>
-     
+<table border="1" bgcolor="white" align="center">
+            <thead>
+                <tr>
+                    <td>No.</td>
+                    <td>Jenis Alpukat</td>
+                    <td>Harga 1 KG</td>
+                    <td>Harga 2 KG</td>
+                    <td>Harga 3 KG</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1.</td>
+                    <td>Alpukat Mentega</td>
+                    <td>Rp. 35.000,-</td>
+                    <td>Rp. 65.000,-</td>
+                    <td>Rp. 90.000,-</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>Alpukat Miki</td>
+                    <td>Rp. 50.000,-</td>
+                    <td>Rp. 90.000,-</td>
+                    <td>Rp. 135.000,-</td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>Alpukat Aligator</td>
+                    <td>Rp. 30.000,-</td>
+                    <td>Rp. 55.000,-</td>
+                    <td>Rp. 80.000,-</td>
+                </tr>
+                <tr>
+                    <td>4.</td>
+                    <td>Alpukat Kendil</td>
+                    <td>Rp. 40.000,-</td>
+                    <td>Rp. 75.000,-</td>
+                    <td>Rp. 100.000,-</td>
+                </tr>
+            </tbody>
+        </table>
       
     </body>
 </html>
