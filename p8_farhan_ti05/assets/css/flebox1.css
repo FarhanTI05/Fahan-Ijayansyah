@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding-left: 0;
+}
+
+.logo{
+    width: 5rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #7bf;
+    padding: 0.5em;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    margin: o.1rem;
+    
+}
